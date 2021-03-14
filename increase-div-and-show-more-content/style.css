@@ -1,0 +1,51 @@
+body {
+    background-color: #ecf0f1;
+    padding-top: 50px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .card {
+    width: 100%;
+    height: 400px;
+    position: relative;
+  }
+  
+  .primary_image {
+    background-image: url('https://cdn.pixabay.com/photo/2015/03/26/09/47/sky-690293_960_720.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .inverse {
+    position: absolute;
+    bottom: 0;
+    transition: all ease-in-out 0.4s;
+    opacity: 0;
+    z-index: 1;
+  }
+  
+  .inverse:hover {
+    opacity: 1;
+    width: 110%;
+    height: 110%;
+  }
+  
+  .image_inverse {
+    background-color: rgba(36, 83, 94, 0.75);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title {
+    font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
+    color: #fff;
+    font-size: 4em;
+  }
