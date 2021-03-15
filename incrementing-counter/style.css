@@ -1,0 +1,24 @@
+body {
+    background-color: #ecf0f1;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 50px;
+    margin: 10px;
+  }
+  
+  h1, p {
+    text-align: center;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 1.4em;
+    margin-top: 10px;
+  }
